@@ -1,0 +1,7 @@
+Game: 
+White Pawn to e5
+Black Pawn to d4
+White Pawn takes Pawn at d4
+Black Pawn to c3
+White Pawn takes Pawn at c3
+Black Pawn takes Pawn at c3

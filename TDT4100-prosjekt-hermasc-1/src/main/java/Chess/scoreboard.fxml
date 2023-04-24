@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chess.ScoreController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="14.0" prefHeight="61.0" prefWidth="213.0" text="CHESSGAME">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="4.0" layoutY="77.0" prefHeight="497.0" prefWidth="340.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TextArea fx:id="scoreboardTextArea" layoutX="30.0" layoutY="17.0" prefHeight="434.0" prefWidth="284.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</Pane>
